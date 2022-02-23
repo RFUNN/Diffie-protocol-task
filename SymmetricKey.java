@@ -13,7 +13,7 @@ public class SymmetricKey {
         Number2 = user_input.nextDouble();
 
         double PrivateKey;
-        System.out.print("Enter your private key: ");
+        System.out.print("Please, Enter your private key: ");
         PrivateKey = user_input.nextDouble();
 
         double PublicKey1 = Math.pow(Number2, PrivateKey) % Number1;
